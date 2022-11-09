@@ -8,10 +8,13 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the dataset
+2. Assign x and y values
+3. Calculate logistic sigmoid function and plot the graph
+4. Calculate the cost function
+5. Calculate x_train and y_train grad value
+6. Calculate and plot decision boundary
+7. Calculate probability value and predict mean value
 
 ## Program:
 ```
@@ -95,9 +98,13 @@ np.mean(predict(res.x,x)==y)
 ```
 
 ## Output:
+![Array value of x and y](X&Y_array_value.png)
+![Exam score graph](examscore_graph.png)
 ![cost function](exp5_op1.png)
+![xtrain ytrain grad value](x_train_y_train)
+![res](res.png)
 ![decision boundary](exp5_op2.png)
-
+![prediction and probability](probability_prediction_value.png)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
